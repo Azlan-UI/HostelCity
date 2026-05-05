@@ -100,15 +100,7 @@ lib/
    flutter run
    ```
 
----
-
-## 📸 Screenshots
-
-| Student Home | Hostel Search | Admin Dashboard |
-| :---: | :---: | :---: |
-| ![Student Home](assets/images/StudentPortal/StudentHome.png) | ![NewBooking]("assets\images\StudentPortal\Booking.png") |
-| ![CurrentStay]("assets\images\StudentPortal\MyStay.png") | ![Map]("assets\images\StudentPortal\Map.png")| ![NAvBar]("assets\images\StudentPortal\Sidebar.png")
----
+--
 
 ## 🔮 Future Improvements
 
