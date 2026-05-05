@@ -106,11 +106,7 @@ lib/
 
 | Student Home | Hostel Search | Admin Dashboard |
 | :---: | :---: | :---: |
-| ![Placeholder](https://via.placeholder.com/200x400?text=Student+Home) | ![Placeholder](https://via.placeholder.com/200x400?text=Search+Map) | ![Placeholder](https://via.placeholder.com/200x400?text=Admin+Dashboard) |
-
-| Complaint Portal | Payment Screen | Profile Settings |
-| :---: | :---: | :---: |
-| ![Placeholder](https://via.placeholder.com/200x400?text=Complaints) | ![Placeholder](https://via.placeholder.com/200x400?text=Payments) | ![Placeholder](https://via.placeholder.com/200x400?text=Profile) |
+| ![Placeholder](assets\images\StudetnPortal) | ![Placeholder]() | ![Placeholder](assets\images\HostelAdmin) |
 
 ---
 
