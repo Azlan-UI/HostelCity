@@ -1,0 +1,312 @@
+Resolving dependencies...
+Downloading packages...
+  _flutterfire_internals 1.3.59 (1.3.69 available)
+  animate_do 3.3.9 (5.1.0 available)
+  archive 4.0.7 (4.0.9 available)
+  async 2.13.0 (2.13.1 available)
+  characters 1.4.0 (1.4.1 available)
+  cloud_firestore 5.6.12 (6.3.0 available)
+  cloud_firestore_platform_interface 6.6.12 (7.2.0 available)
+  cloud_firestore_web 4.4.12 (5.3.0 available)
+  cross_file 0.3.5+1 (0.3.5+2 available)
+  cupertino_icons 1.0.8 (1.0.9 available)
+  dbus 0.7.11 (0.7.12 available)
+  dio 5.9.1 (5.9.2 available)
+  dio_web_adapter 2.1.1 (2.1.2 available)
+  ffi 2.1.5 (2.2.0 available)
+  firebase_auth 5.7.0 (6.4.0 available)
+  firebase_auth_platform_interface 7.7.3 (8.1.9 available)
+  firebase_auth_web 5.15.3 (6.1.5 available)
+  firebase_core 3.15.2 (4.7.0 available)
+  firebase_core_platform_interface 6.0.2 (6.0.3 available)
+  firebase_core_web 2.24.1 (3.6.0 available)
+  firebase_messaging 15.2.10 (16.2.0 available)
+  firebase_messaging_platform_interface 4.6.10 (4.7.9 available)
+  firebase_messaging_web 3.10.10 (4.1.5 available)
+  firebase_storage 12.4.10 (13.3.0 available)
+  firebase_storage_platform_interface 5.2.10 (5.2.20 available)
+  firebase_storage_web 3.10.17 (3.11.5 available)
+  flutter_local_notifications 18.0.1 (21.0.0 available)
+  flutter_local_notifications_linux 5.0.0 (8.0.0 available)
+  flutter_local_notifications_platform_interface 8.0.0 (11.0.0 available)
+  flutter_map 7.0.2 (8.3.0 available)
+  flutter_plugin_android_lifecycle 2.0.33 (2.0.34 available)
+  flutter_riverpod 2.6.1 (3.3.1 available)
+  flutter_svg 2.2.3 (2.2.4 available)
+  geocoding 3.0.0 (4.0.0 available)
+  geocoding_android 3.3.1 (5.0.1 available)
+  geocoding_platform_interface 3.2.0 (5.0.0 available)
+  google_fonts 6.3.3 (8.1.0 available)
+  hooks 1.0.0 (1.0.3 available)
+  image_picker 1.2.1 (1.2.2 available)
+  image_picker_android 0.8.13+12 (0.8.13+17 available)
+  image_picker_ios 0.8.13+3 (0.8.13+6 available)
+  intl 0.19.0 (0.20.2 available)
+  latlong2 0.9.1 (0.10.1 available)
+  lints 6.0.0 (6.1.0 available)
+  logger 2.6.2 (2.7.0 available)
+  lottie 3.3.2 (3.3.3 available)
+  matcher 0.12.17 (0.12.20 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.2 available)
+  mgrs_dart 2.0.0 (3.0.0 available)
+  native_toolchain_c 0.17.4 (0.18.0 available)
+  objective_c 9.2.4 (9.3.0 available)
+  package_info_plus 9.0.0 (10.1.0 available)
+  package_info_plus_platform_interface 3.2.1 (4.1.0 available)
+  path_provider_android 2.2.22 (2.3.1 available)
+  petitparser 7.0.1 (7.0.2 available)
+  posix 6.0.3 (6.5.0 available)
+  proj4dart 2.1.0 (3.0.0 available)
+  riverpod 2.6.1 (3.2.1 available)
+  shared_preferences 2.5.4 (2.5.5 available)
+  shared_preferences_android 2.4.20 (2.4.23 available)
+  shared_preferences_platform_interface 2.4.1 (2.4.2 available)
+  smooth_page_indicator 1.2.1 (2.0.1 available)
+  source_span 1.10.1 (1.10.2 available)
+  sqflite 2.4.2 (2.4.2+1 available)
+  sqflite_android 2.4.2+2 (2.4.2+3 available)
+  sqflite_common 2.5.6 (2.5.6+1 available)
+  synchronized 3.4.0 (3.4.0+1 available)
+  test_api 0.7.7 (0.7.12 available)
+  timezone 0.10.1 (0.11.0 available)
+  unicode 0.3.1 (1.1.9 available)
+  url_launcher_android 6.3.28 (6.3.29 available)
+  uuid 4.5.2 (4.5.3 available)
+  vector_graphics 1.1.19 (1.2.0 available)
+  vector_graphics_compiler 1.1.20 (1.2.0 available)
+  vector_math 2.2.0 (2.3.0 available)
+  vm_service 15.0.2 (15.2.0 available)
+  win32 5.15.0 (6.1.0 available)
+  xml 6.6.1 (7.0.1 available)
+Got dependencies!
+79 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing hostelmanagement...                                   
+
+   info - Don't invoke 'print' in production code - fix_const.dart:6:5 - avoid_print
+   info - Don't invoke 'print' in production code - fix_const.dart:15:3 - avoid_print
+   info - Don't invoke 'print' in production code - fix_const.dart:25:5 - avoid_print
+   info - Don't invoke 'print' in production code - fix_const.dart:29:3 - avoid_print
+   info - Don't invoke 'print' in production code - fix_const.dart:66:7 - avoid_print
+   info - Don't invoke 'print' in production code - fix_const.dart:68:7 - avoid_print
+   info - Unnecessary use of multiple underscores - lib\core\router\app_router.dart:171:24 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\core\router\app_router.dart:171:28 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\core\router\app_router.dart:172:42 - unnecessary_underscores
+warning - Unused import: '../../domain/enums/payment_status.dart' - lib\data\repositories\verification_repository.dart:8:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\data\repositories\verification_repository.dart:204:11 - avoid_print
+warning - Unused import: '../../data/repositories/hostel_repository.dart' - lib\presentation\providers\admin_providers.dart:5:8 - unused_import
+warning - Unused import: '../providers/service_providers.dart' - lib\presentation\providers\badge_providers.dart:5:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\presentation\providers\badge_providers.dart:23:16 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\providers\badge_providers.dart:37:16 - unnecessary_underscores
+warning - Unused import: '../../data/repositories/resident_repository.dart' - lib\presentation\providers\student_providers.dart:6:8 - unused_import
+warning - Unused import: '../../data/repositories/complaint_repository.dart' - lib\presentation\providers\student_providers.dart:7:8 - unused_import
+warning - Unused import: 'service_providers.dart' - lib\presentation\providers\student_providers.dart:11:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\presentation\providers\student_providers.dart:25:16 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\providers\student_providers.dart:39:16 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\providers\student_providers.dart:112:16 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\providers\student_providers.dart:144:16 - unnecessary_underscores
+warning - Unused import: '../../widgets/common/location_picker_screen.dart' - lib\presentation\screens\admin\add_hostel_screen.dart:16:8 - unused_import
+warning - Unused import: '../../../services/storage_service.dart' - lib\presentation\screens\admin\add_hostel_screen.dart:20:8 - unused_import
+warning - The value of the field '_isUploadingDoc' isn't used - lib\presentation\screens\admin\add_hostel_screen.dart:60:8 - unused_field
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\presentation\screens\admin\add_hostel_screen.dart:638:15 - deprecated_member_use
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_bookings_screen.dart:123:39 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_bookings_screen.dart:124:42 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_bookings_screen.dart:126:42 - undefined_identifier
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\screens\admin\admin_complaints_screen.dart:172:11 - use_build_context_synchronously
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_complaints_screen.dart:348:16 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_complaints_screen.dart:350:16 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_complaints_screen.dart:352:16 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_complaints_screen.dart:354:16 - undefined_identifier
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\admin\admin_complaints_screen.dart:505:53 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\admin\admin_complaints_screen.dart:505:57 - unnecessary_underscores
+  error - Invalid constant value - lib\presentation\screens\admin\admin_complaints_screen.dart:507:82 - invalid_constant
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\screens\admin\admin_dues_dashboard_screen.dart:5:8 - unused_import
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\screens\admin\admin_dues_screen.dart:5:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\screens\admin\admin_dues_screen.dart:67:42 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\screens\admin\admin_dues_screen.dart:75:44 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\screens\admin\admin_dues_screen.dart:82:44 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\screens\admin\admin_dues_screen.dart:83:79 - use_build_context_synchronously
+  error - Invalid constant value - lib\presentation\screens\admin\admin_dues_screen.dart:95:50 - invalid_constant
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\screens\admin\admin_dues_screen.dart:358:37 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\screens\admin\admin_dues_screen.dart:359:44 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\presentation\screens\admin\admin_dues_screen.dart:365:44 - use_build_context_synchronously
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\admin\admin_hostel_management_screen.dart:242:30 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\admin\admin_hostel_management_screen.dart:253:30 - unnecessary_underscores
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_hostel_management_screen.dart:364:20 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_hostel_management_screen.dart:545:20 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\admin\admin_hostel_management_screen.dart:554:20 - undefined_identifier
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\screens\admin\admin_post_notice_screen.dart:4:8 - unused_import
+warning - Unused import: '../../widgets/common/custom_button.dart' - lib\presentation\screens\admin\admin_post_notice_screen.dart:10:8 - unused_import
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\presentation\screens\admin\admin_post_notice_screen.dart:118:25 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\presentation\screens\admin\admin_post_notice_screen.dart:155:25 - deprecated_member_use
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\screens\admin\admin_residents_screen.dart:6:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\screens\admin\admin_residents_screen.dart:235:11 - use_build_context_synchronously
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\screens\admin\admin_residents_screen.dart:244:19 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\screens\admin\admin_residents_screen.dart:245:19 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\screens\admin\admin_residents_screen.dart:253:23 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\screens\admin\admin_residents_screen.dart:254:23 - deprecated_member_use
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\screens\admin\hostel_admin_dashboard_screen.dart:4:8 - unused_import
+warning - Unused import: '../../providers/hostel_providers.dart' - lib\presentation\screens\admin\hostel_admin_dashboard_screen.dart:8:8 - unused_import
+warning - Unused import: 'add_hostel_screen.dart' - lib\presentation\screens\admin\hostel_admin_dashboard_screen.dart:11:8 - unused_import
+warning - Unused import: 'admin_complaints_screen.dart' - lib\presentation\screens\admin\hostel_admin_dashboard_screen.dart:12:8 - unused_import
+warning - Unused import: 'admin_residents_screen.dart' - lib\presentation\screens\admin\hostel_admin_dashboard_screen.dart:13:8 - unused_import
+warning - Unused import: 'admin_post_notice_screen.dart' - lib\presentation\screens\admin\hostel_admin_dashboard_screen.dart:14:8 - unused_import
+warning - Unused import: 'admin_hostel_management_screen.dart' - lib\presentation\screens\admin\hostel_admin_dashboard_screen.dart:15:8 - unused_import
+warning - Unused import: 'admin_dues_dashboard_screen.dart' - lib\presentation\screens\admin\hostel_admin_dashboard_screen.dart:16:8 - unused_import
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\screens\admin\user_dues_history_screen.dart:4:8 - unused_import
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\screens\auth\forgot_password_screen.dart:5:8 - unused_import
+warning - The operand can't be 'null', so the condition is always 'false' - lib\presentation\screens\auth\login_screen.dart:49:28 - unnecessary_null_comparison
+  error - Invalid constant value - lib\presentation\screens\auth\onboarding_screen.dart:66:20 - invalid_constant
+  error - The instance member 'context' can't be accessed in an initializer - lib\presentation\screens\auth\onboarding_screen.dart:66:20 - implicit_this_reference_in_initializer
+  error - The values in a const list literal must be constants - lib\presentation\screens\auth\onboarding_screen.dart:66:20 - non_constant_list_element
+  error - Invalid constant value - lib\presentation\screens\auth\onboarding_screen.dart:77:20 - invalid_constant
+  error - The instance member 'context' can't be accessed in an initializer - lib\presentation\screens\auth\onboarding_screen.dart:77:20 - implicit_this_reference_in_initializer
+  error - The values in a const list literal must be constants - lib\presentation\screens\auth\onboarding_screen.dart:77:20 - non_constant_list_element
+  error - Invalid constant value - lib\presentation\screens\auth\onboarding_screen.dart:88:20 - invalid_constant
+  error - The instance member 'context' can't be accessed in an initializer - lib\presentation\screens\auth\onboarding_screen.dart:88:20 - implicit_this_reference_in_initializer
+  error - The values in a const list literal must be constants - lib\presentation\screens\auth\onboarding_screen.dart:88:20 - non_constant_list_element
+  error - Invalid constant value - lib\presentation\screens\auth\onboarding_screen.dart:99:20 - invalid_constant
+  error - The instance member 'context' can't be accessed in an initializer - lib\presentation\screens\auth\onboarding_screen.dart:99:20 - implicit_this_reference_in_initializer
+  error - The values in a const list literal must be constants - lib\presentation\screens\auth\onboarding_screen.dart:99:20 - non_constant_list_element
+   info - The private field _certificateFiles could be 'final' - lib\presentation\screens\auth\register_screen.dart:40:15 - prefer_final_fields
+warning - The declaration '_pickStudentCard' isn't referenced - lib\presentation\screens\auth\register_screen.dart:54:16 - unused_element
+warning - The declaration '_pickCNIC' isn't referenced - lib\presentation\screens\auth\register_screen.dart:72:16 - unused_element
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\screens\platform_admin\platform_admin_dashboard_screen.dart:411:44 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\presentation\screens\platform_admin\verification_dashboard_screen.dart:54:42 - use_build_context_synchronously
+  error - Undefined name 'context' - lib\presentation\screens\platform_admin\verification_dashboard_screen.dart:244:16 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\platform_admin\verification_dashboard_screen.dart:246:35 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\platform_admin\verification_dashboard_screen.dart:252:18 - undefined_identifier
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\screens\student\hostel_detail_screen.dart:6:8 - unused_import
+warning - The value of the field '_isBooking' isn't used - lib\presentation\screens\student\hostel_detail_screen.dart:38:8 - unused_field
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\student\hostel_detail_screen.dart:636:22 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\student\hostel_search_map.dart:297:26 - unnecessary_underscores
+  error - Undefined name 'context' - lib\presentation\screens\student\my_bookings_screen.dart:179:39 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\student\my_bookings_screen.dart:182:42 - undefined_identifier
+warning - Unused import: 'package:flutter_map/flutter_map.dart' - lib\presentation\screens\student\student_active_stay_dashboard.dart:6:8 - unused_import
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\screens\student\student_active_stay_dashboard.dart:8:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\student\student_active_stay_dashboard.dart:214:36 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\student\student_active_stay_dashboard.dart:215:36 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\student\student_active_stay_dashboard.dart:215:40 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\student\student_complaint_screen.dart:591:49 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\screens\student\student_complaint_screen.dart:591:53 - unnecessary_underscores
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\presentation\screens\student\student_complaint_screen.dart:688:21 - deprecated_member_use
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\presentation\screens\student\student_complaint_screen.dart:714:21 - deprecated_member_use
+  error - Undefined name 'context' - lib\presentation\screens\student\student_dues_screen.dart:248:16 - undefined_identifier
+  error - Undefined name 'context' - lib\presentation\screens\student\student_dues_screen.dart:250:16 - undefined_identifier
+warning - Unused import: '../../../core/theme/app_color_tokens.dart' - lib\presentation\screens\student\student_shell_screen.dart:3:8 - unused_import
+   info - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\presentation\widgets\common\app_drawer.dart:1:8 - unnecessary_import
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\common\app_drawer.dart:6:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\common\app_drawer.dart:35:26 - unnecessary_underscores
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor or activeTrackColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\presentation\widgets\common\app_drawer.dart:379:13 - deprecated_member_use
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\widgets\common\auth_gate.dart:4:8 - unused_import
+warning - Unused import: '../../../../core/theme/theme_extensions.dart' - lib\presentation\widgets\common\bottom_nav\student_bottom_nav.dart:5:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\common\custom_text_field.dart:3:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\common\document_upload_widget.dart:3:8 - unused_import
+   info - Unnecessary use of 'toList' in a spread - lib\presentation\widgets\common\document_upload_widget.dart:343:14 - unnecessary_to_list_in_spreads
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\common\loading_indicator.dart:3:8 - unused_import
+   info - 'timeLimit' is deprecated and shouldn't be used. use settings parameter with AndroidSettings, AppleSettings, WebSettings, or LocationSettings - lib\presentation\widgets\common\location_picker_screen.dart:65:13 - deprecated_member_use
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\common\province_city_selector.dart:2:8 - unused_import
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\presentation\widgets\common\province_city_selector.dart:81:11 - deprecated_member_use
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\common\section_header.dart:3:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\common\shimmer_loading.dart:3:8 - unused_import
+  error - Undefined name 'context' - lib\presentation\widgets\common\stat_pill.dart:17:22 - undefined_identifier
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\hostel\hostel_card.dart:3:8 - unused_import
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\presentation\widgets\hostel\hostel_card.dart:59:54 - deprecated_member_use
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\hostel\hostel_list_row.dart:3:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\hostel_detail\available_rooms.dart:4:8 - unused_import
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\hostel_detail\hostel_header.dart:4:8 - unused_import
+warning - Unused import: '../../../../core/theme/theme_extensions.dart' - lib\presentation\widgets\hostel_detail\hostel_image_gallery.dart:5:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\hostel_detail\hostel_image_gallery.dart:36:26 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\hostel_detail\hostel_image_gallery.dart:36:30 - unnecessary_underscores
+warning - Unused import: '../../../core/theme/app_colors.dart' - lib\presentation\widgets\payment\dues_payment_dialog.dart:3:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\payment\dues_payment_dialog.dart:55:39 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\widgets\payment\dues_payment_dialog.dart:89:52 - deprecated_member_use
+warning - Unused import: '../../../../core/theme/app_colors.dart' - lib\presentation\widgets\payment\payment_gateway_dialog.dart:3:8 - unused_import
+warning - Unused import: '../../../../data/models/user_model.dart' - lib\presentation\widgets\payment\payment_gateway_dialog.dart:6:8 - unused_import
+warning - Unused import: '../../../../core/config/country_config.dart' - lib\presentation\widgets\payment\payment_gateway_dialog.dart:7:8 - unused_import
+warning - Unused import: '../../providers/student_providers.dart' - lib\presentation\widgets\payment\payment_gateway_dialog.dart:13:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\payment\payment_gateway_dialog.dart:64:43 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\payment\payment_gateway_dialog.dart:88:18 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\widgets\payment\payment_gateway_dialog.dart:102:52 - deprecated_member_use
+warning - The declaration '_getMethodsForCountry' isn't referenced - lib\presentation\widgets\payment\payment_gateway_dialog.dart:121:23 - unused_element
+warning - Unused import: '../../../../core/theme/app_color_tokens.dart' - lib\presentation\widgets\search\search_results_view.dart:4:8 - unused_import
+   info - Unnecessary use of multiple underscores - lib\presentation\widgets\search\search_results_view.dart:27:17 - unnecessary_underscores
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:139:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:154:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:168:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:208:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:214:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:219:13 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:224:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:229:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:231:11 - avoid_print
+warning - Dead code: This on-catch block won't be executed because 'FirebaseAuthException' is a subtype of 'FirebaseException' and hence will have been caught already - lib\services\auth_service.dart:242:7 - dead_code_on_catch_subtype
+warning - Dead code: This on-catch block won't be executed because 'FirebaseAuthException' is a subtype of 'FirebaseException' and hence will have been caught already - lib\services\auth_service.dart:287:7 - dead_code_on_catch_subtype
+warning - Unused import: 'dart:io' - lib\services\document_verification_service.dart:1:8 - unused_import
+warning - Unused import: 'dart:convert' - lib\services\document_verification_service.dart:3:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\document_verification_service.dart:129:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\document_verification_service.dart:142:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\document_verification_service.dart:212:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:8:3 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:42:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:44:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:60:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:70:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:79:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:81:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:89:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:91:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:137:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:151:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\fcm_service.dart:157:5 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:185:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\location_service.dart:52:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\location_service.dart:76:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\location_service.dart:91:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\location_service.dart:108:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:92:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:93:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:95:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:96:9 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\storage_service.dart:146:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:15:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:19:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:23:7 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:27:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:44:11 - avoid_print
+   info - Unnecessary braces in a string interpolation - scripts\verify_existing_accounts.dart:44:31 - unnecessary_brace_in_string_interps
+   info - Unnecessary braces in a string interpolation - scripts\verify_existing_accounts.dart:44:49 - unnecessary_brace_in_string_interps
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:55:9 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:59:9 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:65:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:66:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:67:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:68:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:69:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:70:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:73:5 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:111:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:112:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:113:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:114:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:115:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:116:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:117:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:118:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:119:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:120:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:121:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:122:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:123:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:124:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:125:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:126:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:127:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:128:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:129:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:130:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:131:3 - avoid_print
+   info - Don't invoke 'print' in production code - scripts\verify_existing_accounts.dart:132:3 - avoid_print
+
+224 issues found. (ran in 7.0s)

@@ -1,0 +1,37 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "hostelmanagement-5845d",
+          "appId": "1:165908157732:android:13a0932edb9f2e42948fb1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "hostelmanagement-5845d",
+          "configurations": {
+            "android": "1:165908157732:android:13a0932edb9f2e42948fb1",
+            "ios": "1:165908157732:ios:fa4e4064da92f7b3948fb1",
+            "macos": "1:165908157732:ios:fa4e4064da92f7b3948fb1",
+            "web": "1:165908157732:web:65fa35bc371935aa948fb1",
+            "windows": "1:165908157732:web:4f2fe7c2406fe80f948fb1"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "firestore": {
+      "port": 808
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  }
+}

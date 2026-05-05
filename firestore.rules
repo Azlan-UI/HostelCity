@@ -1,0 +1,110 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─── Helper Functions ──────────────────────────────────────────────────
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    // Safely get user role without throwing an error if the doc doesn't exist yet
+    function getUserRole() {
+      let userRef = /databases/$(database)/documents/users/$(request.auth.uid);
+      return exists(userRef) ? get(userRef).data.role : 'none';
+    }
+
+    function isAdmin() {
+      return isSignedIn() && getUserRole() == 'hostelAdmin';
+    }
+
+    function isPlatformAdmin() {
+      return isSignedIn() && getUserRole() == 'platformAdmin';
+    }
+
+    function isStudent() {
+      return isSignedIn() && getUserRole() == 'student';
+    }
+
+    // ─── Users Collection ──────────────────────────────────────────────────
+    match /users/{userId} {
+      allow read: if isOwner(userId) || isPlatformAdmin() || isAdmin();
+      allow write: if isOwner(userId) || isPlatformAdmin();
+    }
+
+    // ─── Hostels Collection ────────────────────────────────────────────────
+    match /hostels/{hostelId} {
+      // Anyone signed in can read hostels (simplifies queries drastically)
+      allow read: if isSignedIn();
+      allow create: if isAdmin() && request.resource.data.adminId == request.auth.uid;
+      allow update: if (isAdmin() && resource.data.adminId == request.auth.uid) || isPlatformAdmin();
+      allow delete: if isAdmin() && resource.data.adminId == request.auth.uid;
+    }
+
+    // ─── Complaints Collection ─────────────────────────────────────────────
+    match /complaints/{complaintId} {
+      allow read: if isSignedIn();
+      allow create: if isStudent() || isSignedIn();
+      allow update: if isAdmin() || isOwner(resource.data.studentId);
+      allow delete: if isPlatformAdmin() || isAdmin();
+    }
+
+    // ─── Residents Collection ──────────────────────────────────────────────
+    match /residents/{residentId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin() || isPlatformAdmin();
+    }
+
+    // ─── Notices Collection ────────────────────────────────────────────────
+    match /notices/{noticeId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // ─── Bookings Collection ───────────────────────────────────────────────
+    match /bookings/{bookingId} {
+      allow read: if isSignedIn();
+      allow create: if isStudent() || isSignedIn();
+      allow update: if isAdmin() || isPlatformAdmin() || isOwner(resource.data.studentId);
+      allow delete: if isPlatformAdmin();
+    }
+
+    // ─── Dues Collection (Previously named payments but code uses dues) ────
+    match /dues/{dueId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin() || isPlatformAdmin();
+    }
+
+    // ─── Payments Collection (Fallback just in case) ───────────────────────
+    match /payments/{paymentId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin() || isPlatformAdmin();
+    }
+
+    // ─── Reviews Collection ────────────────────────────────────────────────
+    match /reviews/{reviewId} {
+      allow read: if isSignedIn();
+      allow create: if isStudent() || isSignedIn();
+      allow update, delete: if isOwner(resource.data.studentId) || isPlatformAdmin();
+    }
+
+    // ─── Document Hashes (duplicate-doc prevention) ────────────────────────
+    match /documentHashes/{hashId} {
+      allow read, write: if isSignedIn();
+    }
+
+    // ─── Rooms & Beds ──────────────────────────────────────────────────────
+    match /rooms/{roomId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    match /beds/{bedId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+  }
+}
