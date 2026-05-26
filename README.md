@@ -16,12 +16,14 @@ A premium, high-performance **Hostel Management System** built with Flutter and 
 - **Hassle-free Booking**: Streamlined booking process with real-time availability.
 - **Active Stay Dashboard**: Manage your current residence, track dues, and raise complaints through a dedicated portal.
 - **Smart Complaints**: Submit and track maintenance or service issues with photo attachments and status updates.
+- **Test Login**: Id:azlan123@gmail.com || Password:123456
 
 ### 🏢 Hostel Admin Portal
 - **Resident Management**: Overview of all residents, room assignments, and check-in/out status.
 - **Financial Tracking**: Monitor payments, manage dues, and generate billing reports.
 - **Complaint Resolution**: Efficient workflow to receive, assign, and resolve student issues.
 - **Booking Control**: Approve or reject new booking requests with automated notifications.
+- **Test Login**: Id:azlant231@gmail.com || Password:123456
 
 ### 👑 Platform Administration
 - **Global Overview**: High-level statistics on platform growth, revenue, and user engagement.
